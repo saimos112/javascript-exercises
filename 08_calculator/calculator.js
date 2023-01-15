@@ -25,7 +25,12 @@ const multiply = function(array) {
 
 };
 
-const power = function() {
+const power = function(num1,num2) {
+  let numPower = num1;
+  for (let i = 1; i< num2; i++){
+    numPower = numPower * num1;
+  }return numPower;
+  
 	
 };
 
